@@ -10,12 +10,12 @@ This project is designed to automate the detection and removal of spam URLs from
 - Technical Requirements
   + Programming Language: Python (recommended)
   + Libraries/Modules:
-      requests: For handling HTTP requests.
-      beautifulsoup4: For parsing website content and extracting URLs.
-      selenium: For simulating browser actions, if necessary.
-      google-api-python-client: For interacting with Google Search Console API.
-      pandas: For data management and reporting.
-      schedule: For setting up automated tasks.
+      - requests: For handling HTTP requests.
+      - beautifulsoup4: For parsing website content and extracting URLs.
+      - selenium: For simulating browser actions, if necessary.
+      - google-api-python-client: For interacting with Google Search Console API.
+      - pandas: For data management and reporting.
+      - schedule: For setting up automated tasks.
 - Other Requirements
   + Administrative access to the website's Google Search Console account.
   + A list of known spam indicators or patterns for URL detection.
